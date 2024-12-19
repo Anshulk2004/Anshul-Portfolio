@@ -26,8 +26,8 @@ export default function Page() {
       <link rel="icon" type="image/jpg" href="/Images/anshul.jpg" />
       <header>
         <a href="#" className="logo-holder">
-          <div className="logo">A</div>
-          <div className="logo-text">Software Engineer</div>
+          <div className="logo">AK</div>
+          {/* <div className="logo-text">Software Engineer</div> */}
         </a>
         <InteractiveMenu />
       </header>

@@ -19,9 +19,9 @@ export default function InteractiveMenu() {
         &#9776;
       </button>
       <ul id="menu" className={menuOpen ? "active" : ""}>
-        <li>
+        {/* <li>
           <a href="#">Home</a>
-        </li>
+        </li> */}
         <li>
           <a href="#Experience">Experience</a>
         </li>
