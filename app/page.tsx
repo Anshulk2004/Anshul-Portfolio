@@ -6,6 +6,9 @@ import WorkExperience from "./components/WorkExperience";
 import Projects from "./components/Projects";
 import Skills from "./components/skills";
 import Footer from "./components/Footer";
+import Achievements from "./components/Achivements";
+import Activities from "./components/Activities";
+import Hero from "./components/Hero";
 
 export default function Page() {
   return (
@@ -30,68 +33,12 @@ export default function Page() {
           {/* <div className="logo-text">Software Engineer</div> */}
         </a>
         <InteractiveMenu />
-      </header>
-      <div className="hero-section">
-        <section className="hero-container">
-          <div className="hero-blue">
-            <div className="content">
-              <h1>
-                <small>Hi, I'm</small> Anshul Kumar
-              </h1>
-              <p>
-                A 3rd-year B.Tech CSE student passionate about becoming a
-                skilled Machine Learning or Software Engineer.
-                <span>
-                  I am proficient in data science, machine learning, and have
-                  hands-on experience with large language models, generative AI,
-                  and web technologies.
-                </span>
-                <span>
-                  Outside of tech, I enjoy solving puzzles, reading tech
-                  articles, and playing outdoor sports.
-                </span>
-              </p>
-              <p>
-                <strong>College Name:</strong> Indian Institute of Information
-                Technology, Pune <br />
-                <strong>Branch:</strong> Computer Science and Engineering
-              </p>
-              <div className="call-to-action">
-                <a href="./Images/anshul_resume.pdf" className="button black">
-                  View Resume
-                </a>
-                <a
-                  href="mailto:hello@adriantwarog.com"
-                  className="button white"
-                >
-                  Contact Me
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="profile-picture-container">
-            <img
-              src="./Images/chillguy.jpg"
-              alt="Anshul Kumar"
-              className="profile-pic"
-            />
-            <div className="social-links">
-              <a href="https://github.com/Anshulk2004" target="_blank">
-                <i className="fab fa-github" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/anshul-kumar-627001250/"
-                target="_blank"
-              >
-                <i className="fab fa-linkedin" />
-              </a>
-              <a href="https://leetcode.com/u/Anshulk0102/" target="_blank">
-                <i className="fas fa-code" />
-              </a>
-            </div>
-          </div>
-        </section>
+      </header>     
+      <section id='Home'>
+      <div>
+        <Hero />
       </div>
+      </section>
       <section id='Experience'>
       <div>
         <WorkExperience />
@@ -105,6 +52,16 @@ export default function Page() {
       <section id= 'Projects'>
       <div>
         <Projects />
+      </div>
+      </section>
+      <section id= 'Achivements'>
+      <div>
+        <Achievements />
+      </div>
+      </section>
+      <section id= 'Activities'>
+      <div>
+        <Activities />
       </div>
       </section>
       <div>

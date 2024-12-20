@@ -7,7 +7,7 @@ const WorkExperience: React.FC = () => {
     <section className="work-experience">
       <div className="experience-container">
         <div className="title-container">
-          <h2 className="title">
+          <h2 className="title" >
             Work Experience
           </h2>
         </div>  
@@ -38,7 +38,7 @@ const WorkExperience: React.FC = () => {
             </div>
             <div className="icons">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/ozibook/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -74,7 +74,7 @@ const WorkExperience: React.FC = () => {
             </div>
             <div className="icons">
               <a
-                href="https://linkedin.com"
+                href="https://www.thedebatingsociety.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

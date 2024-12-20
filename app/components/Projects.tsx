@@ -35,7 +35,7 @@ const Projects = () => {
             padding: "0.5rem 1.5rem",
             borderRadius: "8px",
             color: "white",
-            fontSize: "1.75rem",
+            fontSize: "1.5 rem",
             fontFamily: "'Dancing Script', cursive",
             fontWeight: 700,
             letterSpacing: "1px",
@@ -80,11 +80,11 @@ const Projects = () => {
                     Tech Stack
                   </h4>
                   <p className="text-gray-600 text-sm mb-2">
-                    Python, React.js, Next.js
+                    Python, Deep Learning, AWS Services, Fast API, Flask, Solidity, IPFS, Node.js, ReactJs
                   </p>
                   <div className="flex space-x-3">
                     <a
-                      href="https://github.com/"
+                      href="https://github.com/Anshulk2004/ToneCraft"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-500 hover:text-gray-700 transition-colors"
@@ -92,7 +92,7 @@ const Projects = () => {
                       <i className="fab fa-github text-xl"></i>
                     </a>
                     <a
-                      href="https://example.com"
+                      href="https://tone-craft-frontend.vercel.app/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-500 hover:text-gray-700 transition-colors"
@@ -136,11 +136,11 @@ const Projects = () => {
                     Tech Stack
                   </h4>
                   <p className="text-gray-600 text-sm mb-2">
-                    Python, React.js, Next.js
+                  Python, Next.js, TypeScript, Machine Learning, OpenAI, Tailwind CSS
                   </p>
                   <div className="flex space-x-3">
                     <a
-                      href="https://github.com/"
+                      href="https://github.com/Anshulk2004/Travel"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-500 hover:text-gray-700 transition-colors"
@@ -189,11 +189,11 @@ const Projects = () => {
                     Tech Stack
                   </h4>
                   <p className="text-gray-600 text-sm mb-2">
-                    Python, React.js, Next.js
+                  Python, ReactJs, NodeJs, Gemini, LangChain, Streamlit
                   </p>
                   <div className="flex space-x-4">
                     <a
-                      href="https://github.com/"
+                      href="https://github.com/Anshulk2004/sqlGen"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-500 hover:text-gray-700 transition-colors"
@@ -245,11 +245,11 @@ const Projects = () => {
                     Tech Stack
                   </h4>
                   <p className="text-gray-600 text-sm mb-2">
-                    Python, React.js, Next.js
+                    Python, Tensorflow, HuggingFace Transformers
                   </p>
                   <div className="flex space-x-3">
                     <a
-                      href="https://github.com/"
+                      href="https://github.com/Anshulk2004/llm_bot"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-500 hover:text-gray-700 transition-colors"

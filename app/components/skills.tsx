@@ -33,7 +33,7 @@ const Skills = () => {
         variants={fadeInUpVariants}
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
       >
-        <div className="bg-neutral-900 p-4 rounded-xl">
+        {/* <div className="bg-neutral-900 p-4 rounded-xl">
           <div className="flex items-center gap-2 mb-3">
             <span className="text-white text-lg font-semibold">💻</span>
             <h3 className="text-white text-lg font-semibold">
@@ -58,7 +58,7 @@ const Skills = () => {
               <span className="text-gray-300 text-lg">Java</span>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="bg-neutral-900 p-4 rounded-xl">
           <div className="flex items-center gap-2 mb-4">
@@ -170,7 +170,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="bg-neutral-900 p-4 rounded-xl">
+        {/* <div className="bg-neutral-900 p-4 rounded-xl">
           <div className="flex items-center gap-2 mb-4">
             <span className="text-white text-lg font-semibold">🧠</span>
             <h3 className="text-white text-lg font-semibold">
@@ -191,7 +191,7 @@ const Skills = () => {
               <span className="text-gray-300 text-lg">Statistics</span>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="bg-neutral-900 p-4 rounded-xl">
           <div className="flex items-center gap-2 mb-4">
@@ -208,13 +208,13 @@ const Skills = () => {
               <span className="text-gray-300 text-lg">Computer Networks</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-blue-400">🔑</span>
-              <span className="text-gray-300 text-lg">Object-Oriented Programming</span>
+              <span className="text-blue-400">📚</span>
+              <span className="text-gray-300 text-lg">Data Structures and Algorithms</span>
             </div>            
           </div>
         </div>
 
-        <div className="bg-neutral-900 p-4 rounded-xl">
+        {/* <div className="bg-neutral-900 p-4 rounded-xl">
           <div className="flex items-center gap-2 mb-4">
             <span className="text-white text-lg font-semibold">🔮</span>
             <h3 className="text-white text-lg font-semibold">Others</h3>
@@ -229,7 +229,7 @@ const Skills = () => {
               <span className="text-gray-300 text-lg">WEB 3</span>
             </div>
           </div>
-        </div>
+        </div> */}
       </motion.div>
     </motion.section>
   );
